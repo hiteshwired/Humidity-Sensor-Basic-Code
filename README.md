@@ -26,4 +26,4 @@ Temperature=23 C	Humidity=%45
 
 `DHT11.read()` returns a status code and the sketch ignores it, so a wiring fault or a
 failed checksum shows up as a stale or zero reading rather than an error. There's no
-averaging either — each line is whatever the most recent read returned.
+averaging either; each line is whatever the most recent read returned.
